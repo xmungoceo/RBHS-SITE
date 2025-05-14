@@ -4,7 +4,7 @@ import Footer from '@/components/Footer'
 
 export const metadata = {
   title: 'Contact Us | Riverbend Imaging',
-  description: 'Contact Riverbend Imaging in Oakmont, PA for appointments and inquiries. We\'re here to help with all your medical imaging needs.',
+  description: "Contact Riverbend Imaging in Oakmont, PA for appointments and inquiries. We're here to help with all your medical imaging needs.",
 }
 
 export default function ContactPage() {
@@ -17,7 +17,7 @@ export default function ContactPage() {
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-riverbend-navy sm:text-4xl">Contact Us</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              We're here to help with all your medical imaging needs. Contact us for appointments, questions, or concerns.
+              We are here to help with all your medical imaging needs. Contact us for appointments, questions, or concerns.
             </p>
           </div>
           

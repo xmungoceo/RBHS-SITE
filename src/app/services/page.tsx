@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import { SERVICES } from '@/constants/siteInfo'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
