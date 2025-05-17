@@ -16,7 +16,7 @@ export default function TeamPage() {
       <div className="py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-3xl font-bold tracking-tight text-riverbend-navy sm:text-4xl">Our Team</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our Team</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
               Meet our experienced team of board-certified radiologists and imaging specialists dedicated to providing exceptional care.
             </p>
@@ -24,7 +24,7 @@ export default function TeamPage() {
           
           <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             {TEAM_MEMBERS.map((member) => (
-              <article key={member.name} className="bg-white p-6 rounded-lg shadow-md">
+              <article key={member.name} className="bg-white p-6 rounded-lg shadow-sm">
                 <div className="relative w-full h-64 mb-6 rounded-lg overflow-hidden">
                   <Image
                     src={member.image}
@@ -35,7 +35,7 @@ export default function TeamPage() {
                 </div>
                 <div className="max-w-xl">
                   <div className="group relative">
-                    <h3 className="text-lg font-semibold leading-6 text-riverbend-navy">
+                    <h3 className="text-lg font-semibold leading-6 text-gray-900">
                       {member.name}, {member.credentials}
                     </h3>
                     <p className="text-riverbend-teal font-medium mt-1">{member.role}</p>

@@ -38,12 +38,12 @@ export const TEAM_MEMBERS = [
     bio: 'Dr. Mitchell brings over 15 years of experience in diagnostic imaging and leads our team with expertise in advanced neurological and musculoskeletal imaging techniques.',
   },
   {
-    name: 'Dr. James Chen',
+    name: 'Dr. James Cook',
     role: 'Chief of Nuclear Medicine',
     credentials: 'MD, PhD',
-    image: '/images/team/james-chen.jpg',
+    image: '/images/team/james-cook.jpg',
     specialties: ['Nuclear Medicine', 'PET/CT Imaging'],
-    bio: 'With a background in both medicine and medical physics, Dr. Chen specializes in nuclear medicine and advanced molecular imaging techniques.',
+    bio: 'With a background in both medicine and medical physics, Dr. Cook specializes in nuclear medicine and advanced molecular imaging techniques.',
   },
   {
     name: 'Dr. Maria Rodriguez',
