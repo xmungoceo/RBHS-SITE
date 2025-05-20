@@ -12,7 +12,7 @@ interface HeroProps {
 export default function Hero({ title, description, image, gradient }: HeroProps) {
   return (
     <section 
-      className="relative"
+      className="relative bg-white"
       aria-labelledby="hero-title"
     >
       <div className="relative aspect-[16/9] sm:aspect-[21/9]">

@@ -58,13 +58,13 @@ export default function Services() {
                 <div className="mt-6 flex items-center gap-x-4">
                   <Link
                     href={`/services/${service.key}`}
-                    className="flex-1 text-center rounded-md bg-riverbend-teal px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-riverbend-dark-teal"
+                    className="flex-1 text-center rounded-md bg-riverbend-teal px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-riverbend-dark-teal hover:text-white"
                   >
                     Learn More
                   </Link>
                   <Link
                     href="/schedule"
-                    className="flex-1 text-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-riverbend-teal ring-1 ring-inset ring-riverbend-teal hover:bg-gray-50"
+                    className="flex-1 text-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-riverbend-teal hover:bg-gray-50"
                   >
                     Schedule Now
                   </Link>
@@ -85,7 +85,7 @@ export default function Services() {
           <div className="mt-8">
             <Link
               href="/contact"
-              className="inline-flex items-center rounded-md bg-riverbend-teal px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-riverbend-dark-teal"
+              className="inline-flex items-center rounded-md bg-riverbend-teal px-6 py-3 text-sm font-semibold text-gray-900 shadow-sm hover:bg-riverbend-dark-teal hover:text-white"
             >
               Contact Us
             </Link>

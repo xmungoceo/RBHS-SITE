@@ -30,7 +30,7 @@ export default function CTPage() {
             <div className="mt-5 flex lg:ml-4 lg:mt-0">
               <Link
                 href="/schedule"
-                className="inline-flex items-center rounded-md bg-riverbend-teal px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-riverbend-dark-teal"
+                className="inline-flex items-center rounded-md bg-riverbend-teal px-6 py-3 text-sm font-semibold text-gray-900 shadow-sm hover:bg-riverbend-dark-teal hover:text-white"
               >
                 Schedule Now
               </Link>
