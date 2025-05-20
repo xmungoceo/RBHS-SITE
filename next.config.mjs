@@ -1,10 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
   images: {
-    unoptimized: true,
+    domains: ['localhost', 'your-domain.com'],
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/riverbend-imaging' : '',
+  poweredByHeader: false,
+  reactStrictMode: true,
+  assetPrefix: process.env.NODE_ENV === 'production' ? '' : '',
+  compress: true,
 };
 
 export default nextConfig; 
